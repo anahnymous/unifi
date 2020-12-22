@@ -1,13 +1,13 @@
 FROM debian:stretch
-MAINTAINER brettm357@me.com
+MAINTAINER anahnymous@gmail.com
 
 ARG BUILD_DATE
-ARG VERSION=6.0.18
-LABEL build_version="brettm357 version:- ${VERSION} Build-date:- ${BUILD_DATE}"
+ARG VERSION=6.0.41
+LABEL build_version="anahnymous version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 
     # SET ENVIROMENT VARIABLES
 ENV DEBIAN_FRONTEND noninteractive
-ENV UNIFI_VERSION 6.0.18-2f53410e48
+ENV UNIFI_VERSION 6.0.41
 
     # INSTALL PACKAGES
 RUN echo "deb http://ftp.us.debian.org/debian stretch main" \
